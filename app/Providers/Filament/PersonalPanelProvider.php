@@ -28,6 +28,9 @@ class PersonalPanelProvider extends PanelProvider
             ->id('personal')
             ->path('personal')
             ->profile()
+            ->registration()
+            ->passwordReset()
+            ->emailVerification()
             ->login()
             ->default()
             ->colors([
